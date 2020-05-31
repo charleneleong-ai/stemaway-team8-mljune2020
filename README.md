@@ -1,8 +1,6 @@
 # Stemaway NLP ML Project - Building a forum classifier for Discourse forum posts with BERT
 
 
-##  **The High Level Overview:**
-
 1. Webscrape data from at least 3 [public Discourse forums](https://www.discoursehub.com/communities/) to get text from posts and their
 associated metadata. 
 2. Use a transformer based neural architecture (BERT) as a feature extractor to
