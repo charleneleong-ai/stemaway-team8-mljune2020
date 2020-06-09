@@ -1,18 +1,7 @@
 import scrapy
 import json
 import csv
-from scrapy.spiders import Spider
-# from scrapy_splash import SplashRequest
-from pprint import pprint
-from scrapy import Request
-# from scrapy.http.request import Request
-from ..items import CocoScrapyItem
-import time
-from scrapy.selector import Selector
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
-#
+
 # main_url = 'https://discourse.codecombat.com/latest?no_definitions=true&page=1'
 
 class CombatSpider(scrapy.Spider):
