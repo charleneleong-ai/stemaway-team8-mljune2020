@@ -9,11 +9,8 @@ class CombatSpider(scrapy.Spider):
     # allowed_domains = "https://discourse.codecombat.com/latest.json?no_definitions=true&page="
     start_urls = ["https://discourse.codecombat.com/latest.json?no_definitions=true&page={}".format(i)
                   for i in range(221)]
-    download_delay = 2.5
-    # start_urls = [allowed_domains + "1"]
-    # def start_requests(self):
-    #     with open(self.settings["PROXY_CSV_FILE"], mode="r") as csv_file:
-    #         requests=
+    download_delay = 1.5
+
 
     def parse(self, response):
 
